@@ -4,12 +4,12 @@ import NavBar from './components/NavBar'
 import News from './components/News';
 
 export default class App extends Component {
-  a="John";
+  
   render() {
     return (
       <div>
         <NavBar />
-        <News />
+        <News country="in" apiKey="458d646dfb1645bd955e78cd12bb3f52" pageSize={12} category="science"  />
       </div>
     )
   }
