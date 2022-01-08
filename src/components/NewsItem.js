@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react'
-import defaultNewsImage from '../img/defaultNewsImage.jpg'
 
 export class NewsItem extends Component {
     // 
